@@ -54,49 +54,49 @@ export default function App() {
             </View>
 
             <View style={styles.cnt}>
-              <Text style={styles.txt}>Study    <Text style={styles.ex}>12 Tasks</Text></Text>
+              <Text style={styles.txt}>Study    <Text style={styles.ex}> 12 Tasks</Text></Text>
               <Image
               style={styles.guySitting} 
               source={require("./assets/images/learning.png")}/>
             </View>
 
             <View style={styles.cnt}>
-              <Text style={styles.txt}>Coding <Text style={styles.ex}> 5 Project</Text></Text>
+              <Text style={styles.txt}>Coding  <Text style={styles.ex}>  5 Project</Text></Text>
               <Image
               style={styles.guySitting} 
               source={require("./assets/images/coding.jpg")}/>
             </View>
 
             <View style={styles.cnt}>
-              <Text style={styles.txt}>Sleep!!!!<Text style={styles.ex}>6 hours</Text></Text>
+              <Text style={styles.txt}>Sleep!!!!!<Text style={styles.ex}>6 hours</Text></Text>
               <Image
               style={styles.guySitting} 
               source={require("./assets/images/sleep.jpg")}/>
             </View>
 
             <View style={styles.cnt}>
-              <Text style={styles.txt}>Visiting<Text style={styles.ex}> 4 hours</Text></Text>
+              <Text style={styles.txt}>Visiting  <Text style={styles.ex}> 4 hours</Text></Text>
               <Image
               style={styles.guySitting} 
               source={require("./assets/images/visiting.jpg")}/>
             </View>
 
             <View style={styles.cnt}>
-              <Text style={styles.txt}>Gaming <Text style={styles.ex}>5 Matches</Text></Text>
+              <Text style={styles.txt}>Gaming <Text style={styles.ex}>  5 Matches</Text></Text>
               <Image
               style={styles.guySitting} 
               source={require("./assets/images/gaming.jpg")}/>
             </View>
 
             <View style={styles.cnt}>
-              <Text style={styles.txt}>Reading<Text style={styles.ex}>2 books</Text></Text>
+              <Text style={styles.txt}>Reading<Text style={styles.ex}>  2 books</Text></Text>
               <Image
               style={styles.guySitting} 
               source={require("./assets/images/reading.jpg")}/>
             </View>
 
             <View style={styles.cnt}>
-              <Text style={styles.txt}>Shoppin<Text style={styles.ex}>3 hours</Text></Text>
+              <Text style={styles.txt}>Shopping<Text style={styles.ex}>3 hours</Text></Text>
               <Image
               style={styles.guySitting} 
               source={require("./assets/images/shoping.jpg")}/> 
@@ -221,7 +221,7 @@ const styles = StyleSheet.create({
     fontWeight: "450"
   },
   txt: {
-    width: 62,
+    width: 70,
     height: 40,
     top: 10,
     fontSize: 18,
