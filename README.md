@@ -64,3 +64,4 @@ The ongoing tasks section : Determines styles for the fonts of the current tasks
 ![alt text](Tulus/assets/Screenshot/IMG-20240601-WA0093.jpg) 
 ![alt text](Tulus/assets/Screenshot/IMG-20240601-WA0094.jpg) 
 ![alt text](Tulus/assets/Screenshot/IMG-20240601-WA0095.jpg)
+![alt text](<Tulus/assets/Screenshot/WhatsApp Image 2024-06-01 at 09.02.52_b0310933.jpg>)
