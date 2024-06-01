@@ -41,6 +41,27 @@ export default function App() {
         </TouchableOpacity></View>
         </View>
         
+        <Text style={styles.cat}>Categories</Text>
+
+        <View style={styles.horizontalList}>
+            <View style={styles.cnt}>
+              <Text style={styles.txt}>Exercise <Text style={styles.ex}>12 Tasks</Text></Text>
+              <Image
+              style={styles.guySitting} 
+              source={require("./assets/images/guy sitting.png")}/>
+            </View>
+
+            <View style={styles.cnt}>
+              <Text style={styles.txt}>Study    <Text style={styles.ex}>12 Tasks</Text></Text>
+              <Image
+              style={styles.guySitting} 
+              source={require("./assets/images/learning.png")}/>
+            </View>
+        </View>
+
+        <View style={styles.verticalList}>
+          
+        </View>
 
       </View>
       <StatusBar style="auto" />
@@ -110,7 +131,41 @@ const styles = StyleSheet.create({
     width: 64,
     height: 55,
     borderRadius: 24
-  }
+  },
+  cat: {
+    fontSize: 30,
+    top: 40,
+    left: 10,
+    fontWeight: "bold"
+  },
+  horizontalList: {
+   left: 10,
+    top: 60,
+    flexDirection: "row",
+    gap: 20
+  },
+  cnt: {
+    backgroundColor: "white",
+    width: 186,
+    height: 200,
+    borderRadius: 20,
+    paddingLeft: 10
+  },
+  ex: {
+    fontSize: 11,
+    fontWeight: "450"
+  },
+  txt: {
+    width: 62,
+    height: 40,
+    top: 10,
+    fontSize: 18,
+    fontWeight: "bold" 
+  },
+  guySitting:{
+    width: 151,
+    height: 156,
+  },
 });
 
 
